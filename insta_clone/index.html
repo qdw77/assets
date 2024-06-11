@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Instagram</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  
-  <script src="./script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <table class="ins-lg">
+          <tr>
+            <td><img src="./assets/images/logo-light.png" alt="" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                id="userid"
+                placeholder="전화번호, 사용자 이름 또는 이메일"
+                type="text"
+              />
+              <p class="id-warn"></p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="user-pw" placeholder="비밀번호" type="password" />
+            </td>
+          </tr>
+          <tr>
+            <td><button type="button">로그인</button></td>
+          </tr>
+          <tr>
+            <td>또는</td>
+          </tr>
+
+          <tr>
+            <td>
+              <img src="./assets/images/facebook-icon.png" alt="face-icon" /><a
+                href="https://www.facebook.com/?locale=ko_KR"
+                >facebook으로 로그인</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td><a href="">비밀번호를 잊으셨나요?</a></td>
+          </tr>
+        </table>
+
+        <table class="ins-new">
+          <tr class="new-log">
+            <td>계정이 없으신 가요? <a href="">가입하기</a></td>
+          </tr>
+
+          <tr>
+            <td>앱을 다운로드 하세요</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.apple.com/kr/app-store/"
+                ><img src="./assets/images/app-store.png" alt=""
+              /></a>
+              <a
+                href="https://play.google.com/store/games?device=windows&utm_source=apac_med&hl=ko-KR&utm_medium=hasem&utm_content=Jan0224&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-kr-1707570-med-hasem-py-Evergreen-Jan0224-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700058439439069_creativeid_693739443287_device_c&gad_source=1&gclid=EAIaIQobChMI-PW90LTShgMV4g57Bx1kXgF1EAAYASAAEgJFjvD_BwE&gclsrc=aw.ds"
+                ><img src="./assets/images/gg-play.png" alt=""
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
