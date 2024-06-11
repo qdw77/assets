@@ -1,0 +1,39 @@
+.txt-red{
+  color: red;
+
+}
+
+.txt-green{
+  color: green;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.ins-ui{
+  margin: 60px auto;  
+}
+
+.ins-lg{
+  border: 4px solid red;
+  padding: 60px;
+  
+
+  /* padding: 40px;
+  width: 80%;
+  margin: 80px auto;
+  display: flex; */
+  
+}
+
+.ins-logo img{
+  width: 60px;
+}
+
+button{
+  background-color: rgb(140, 186, 255);
+  color: aliceblue;
+
+}

@@ -8,10 +8,10 @@
   </head>
   <body>
     <div>
-      <form action="">
+      <form action="ins-ui">
         <table class="ins-lg">
           <tr>
-            <td><img src="./assets/images/logo-light.png" alt="" /></td>
+            <td class="ins-logo"><img src="./assets/images/logo-light.png" alt="" /></td>
           </tr>
           <tr>
             <td>
@@ -25,11 +25,12 @@
           </tr>
           <tr>
             <td>
-              <input id="user-pw" placeholder="비밀번호" type="password" />
+              <input id="userpw" placeholder="비밀번호" type="password" />
+              <p class="pw-warn"></p>
             </td>
           </tr>
           <tr>
-            <td><button type="button">로그인</button></td>
+            <td><input id="submit-btn" type="submit" ></td>
           </tr>
           <tr>
             <td>또는</td>
