@@ -242,12 +242,12 @@ body.dark .light-logo{
     text-align: center;
   }
 
-  .footer-menu-list{
+  .footer-menu-list {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .footer-menu-list a{
+  .footer-menu-list a {
     padding: 0 8px;
     font-size: 14px;
     color: var(--txt-second-color);
