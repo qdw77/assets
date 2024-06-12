@@ -56,7 +56,7 @@ button{
 .dark-logo{
   display: none;
 }
-body.dark .bady-logo{
+body.dark .dark-logo{
   display: block;
 }
 
