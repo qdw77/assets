@@ -229,7 +229,7 @@ body.dark .light-logo{
   }
 
   .txtap-txt{
-    margin: 30px 0;
+    margin: 30px 0px;
   }
 
   .qpp-down img{
@@ -246,7 +246,7 @@ body.dark .light-logo{
     display: flex;
     flex-wrap: wrap;
   }
-
+  
   .footer-menu-list a {
     padding: 0 8px;
     font-size: 14px;
