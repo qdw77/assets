@@ -12,7 +12,48 @@
 
 .dark {
   --body-bg: #151515;
-  --box-bg: #151515;
+  --box-bg: #353535;
   --box-border-color: #262626;
   --txt-color: #d2d2d2;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+input,
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.dark-logo{
+  display: none;
+}
+
+.wrpper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-container{
+  width: 360px;
+
+}
+
+.logo img{
+  width: 100%;
 }
