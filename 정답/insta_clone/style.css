@@ -226,7 +226,7 @@ body.dark .light-logo{
 
   }
 
-  .join-box span{
+  .join-box span a{
     color: var(--light-blue);
     font-weight:700;
   }
