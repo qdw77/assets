@@ -28,7 +28,7 @@
 // animtateInput.forEach((item) => {
 //   let input = item.querySelector('input');
 
-//   input.addEventListener('Keyup', () => {
+//   input.addEventListener('keyup', () => {
 //     if(input == userEmail){
 //       emailAct = updateInputState(input, emailAct);
 //     } 
@@ -46,6 +46,9 @@ let userEmail = document.getElementById('user-email');
 let userName = document.getElementById('user-name');
 let userId = document.getElementById('user-id');
 let userPw = document.getElementById('user-pw');
+
+
+let pwBtn = document.getElementById('pw-btn');
 
 
 function updateInputState(val, activeVar) {
@@ -70,6 +73,29 @@ animateInput.forEach((item) => {
   input.addEventListener('keyup', () => {
     if(input == userEmail) {
       emailAct = updateInputState(input, emailAct);
+    } else if (input == userName) {
+      nameAct = updateInputState(input, nameAct);
+    }else if(input == userId){
+      idAct = updateInputState(input, idAct)
+    }else if(input == userPw){
+      pwAct = updateInputState(input, pwAct);
+    }
+    let allTrue = emailAct && nameAct && idAct && pwAct;
+    if(allTrue) {
+      // allTrue 값이 모두 참일 때
+      // joinBtn disanled 속성 remove
+      joinBtn.removeAttribute('disabled')
+    } else {
+      joinBtn.setAttribute('disabled', true);
     }
   })
 })
+
+function modeToggle(){
+// 상향연산자
+// 조건 ? true : false
+// userPw type : password => text | pwBtn.innerHtml = '숨기기'
+// userPw type : text => password | pwBtn.innerHtml = '비밀번호 표시'
+}
+
+pwBtn.addEventListener('click', modeToggle);
