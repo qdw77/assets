@@ -11,6 +11,11 @@ function popupClose(item) {
   item.classList.remove('active');
 }
 
+// poupOpen 함수 매개변수 x
+// 매개변수가 없을 경우 => click 이벤트가 발생했을 때 해당 함수 호출
+// postAddBtn.addEventListener('click', uploadPopup);
+
+// 매개변수가 있을 때는 => () => {popupOpen(매개변수)}
 postAddBtn.addEventListener('click', () => {popupOpen(uploadPopup)});
 postCloseBtn.addEventListener('click', () => {popupClose(uploadPopup)});
 
