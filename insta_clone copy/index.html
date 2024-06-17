@@ -2,14 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <title>Instagram</title>
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicon/favicon-16x16.png"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/522c2b7a73.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div>
+    <div class="wrapper">
+      <header class="global-header">
+        <div>
+          <h1 class="logo">
+            <a href="index.html">
+              <img
+                src="../insta_clone copy/assets/images/logo-light.png"
+                alt="logo"
+              />
+            </a>
+          </h1>
+          <ul class="gnb-icon-list">
+            <li class="post-upload-btn">
+              <i class="fa-regular fa-square-plus"></i>
+            </li>
+            <li>
+              <i class="fa-regular fa-compass"></i>
+            </li>
+            <li>
+              <i class="fa-regular fa-heart"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </li>
+          </ul>
+        </div>
+      </header>
 
+      <main>
+        <ul class="post-list">
+          <li class="post-item">
+            <div class="profile">
+              <div class="profile-img">
+                <img src="./main/images/potato.jpeg" alt="프로필이미지" />
+              </div>
+
+              <div class="profile-txt">
+                <div class="username">yejin</div>
+                <div class="location">Sejong, South Korea</div>
+              </div>
+
+              <button class="option-btn" type="button">
+                <i class="fa-solid fa-ellipsis"></i>
+              </button>
+            </div>
+
+            <div class="post-img">
+              <img src="./main/images/멍.jpeg" alt="post-img-01">
+            </div>
+            <div class="post-icons">
+              <div>
+                <span class="post-heart">
+                  <i class="fa-regular fa-heart"></i>
+                </span>
+                 <span>
+                  <i class="fa-regular fa-comment"></i>
+                </span>
+              </div>
+            
+          <span>
+            <i class="fa-regular fa-bookmark"></i>
+          </span>
+          </li>
+        </ul>
+        <div></div>
+        <div></div>
+      </main>
+      <footer></footer>
     </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
